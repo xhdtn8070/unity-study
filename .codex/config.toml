@@ -1,0 +1,12 @@
+# Project-scoped Codex configuration.
+# This file lives in the repository so the project can carry its own Codex setup.
+# Add MCP servers here when you are ready.
+# Project configs take precedence over user-level config.toml.
+
+project_root_markers = [".git"]
+
+# Example MCP entry (fill in later when ready):
+# [mcp_servers.unity]
+# command = "node"
+# args = ["path/to/unity-mcp-server.js"]
+# working_directory = "."
