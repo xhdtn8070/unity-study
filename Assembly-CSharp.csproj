@@ -465,8 +465,8 @@
     <Reference Include="Mono.Cecil">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -837,11 +837,17 @@
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI.Analytics">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="glTFast.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
@@ -852,8 +858,14 @@
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Assistant.Agent.Dynamic.Extension.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Agent.Dynamic.Extension.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Assistant.API.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.API.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Editor.Overrides.dll</HintPath>
@@ -873,6 +885,9 @@
     <Reference Include="PPv2URPConverters">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Assistant.Integrations.Profiler.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Integrations.Profiler.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
     </Reference>
@@ -891,6 +906,9 @@
     <Reference Include="Unity.Burst.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.MCP.Runtime">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.MCP.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
@@ -902,6 +920,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Assistant.Bridge.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Bridge.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
@@ -915,14 +936,29 @@
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Assistant.Tools.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Tools.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Assistant.Annotations.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Annotations.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Assistant.Runtime">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Assistant.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Tracing">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.Tracing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
@@ -942,6 +978,9 @@
     <Reference Include="Unity.Mathematics">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Serialization">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
@@ -956,6 +995,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="HFDownloader">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\HFDownloader.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.004">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.004.dll</HintPath>
@@ -981,14 +1023,23 @@
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Serialization.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.Serialization.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
+    <Reference Include="glTFast">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\glTFast.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.MCP.Editor">
+      <HintPath>C:\Users\Wish\unity-study\unity-study\Library\ScriptAssemblies\Unity.AI.MCP.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
