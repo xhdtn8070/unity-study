@@ -1,6 +1,6 @@
 project_root_markers = [".git"]
 
 [mcp_servers.unity]
-command = "C:\\Users\\Wish\\.unity\\relay\\relay_win.exe"
+command = 'C:\Users\Wish\.unity\relay\relay_win.exe'
 args = ["--mcp"]
 working_directory = "."
